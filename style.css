@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url("../images/background.png"); /* Note the adjusted path */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #871d14;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #e9dbc1;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #871d14;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  background-color: #380000;
+  border-radius: 20px;
+  margin: 20px auto;
+  width: 90%;
+  padding: 20px;
+}
+
+.cd {
+  display: flex;
+  background-color: #170801;
+  border-radius: 20px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.cd img {
+  width: 20%;
+  height: auto;
+}
+
+.cd-text {
+  padding: 20px;
+  color: #871d14;
+}
+
+.cd-text button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #170801;
+  color: #871d14;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.poster {
+  display: flex;
+  justify-content: space-around;
+  background-color: #480000;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.poster img {
+  width: 20%;
+  border-radius: 5px;
+}
+
+.star {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9dbc1;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.star img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.star .links, .footer .lyrics {
+  color: #170801;
+}
+
+.lyrics {
+  font-style: italic;
+  max-width: 300px;
+}
